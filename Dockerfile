@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-RUN apt-get update && apt-get install maven -y && apt install git -y
+RUN apt-get update && apt-get install maven -y && apt install git -y $$ apt install default-jdk -y
 
 # Install ssh
 RUN apt-get -y install openssh-client
