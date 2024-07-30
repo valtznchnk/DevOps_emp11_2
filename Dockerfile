@@ -13,4 +13,4 @@ RUN chmod 600 /root/.ssh/id_rsa
 # Install docker
 RUN apt-get -y install apt-transport-https ca-certificates curl gnupg2 software-properties-common
 RUN apt-get -y install docker.io
-RUN chmod 666 /var/run/docker.sock
+RUN chmod 600 /var/run/docker.sock
